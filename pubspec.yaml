@@ -31,9 +31,19 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_localizations:
+    sdk: flutter
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  firebase_messaging: ^16.0.1
+
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
@@ -56,6 +66,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # Localization configuration
+  generate: true
+  # The directory where the localization files (ARB) are stored
+  # and the template file for the default language
+  # See: https://docs.flutter.dev/accessibility-and-localization/internationalization
+  # l10n.yaml can also be used for more advanced config
+  # For now, this enables Flutter's built-in l10n tool
+  # and will generate the localization files from lib/l10n/*.arb
 
   # To add assets to your application, add an assets section, like this:
   # assets:
