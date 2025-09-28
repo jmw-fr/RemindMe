@@ -10,16 +10,16 @@
 - [x] Set up Firebase backend (Firestore, Authentication, Cloud Functions, Messaging)
 - [x] Define app folder structure (feature-based, separation of UI/business logic)
 
-## 3. Authentication
-- Implement sign-in with Google, Apple, and Microsoft accounts
-- Handle authentication state and user sessions
-
-## 4. UI/UX Foundation
+## 3. UI/UX Foundation
 - [ ] Implement Material design for Android, Web, Windows
 - [ ] Implement Copernicus design for iOS
 - [x] Add dark/light theme support (system preference)
 - [ ] Ensure accessibility (screen readers, contrast, large text)
 - [x] Add multi-language support (define initial languages)
+
+## 4. Mocked user
+- [ ] Create a user model
+- [ ] Implement a mocked authentification process
 
 ## 5. Reminders Core Features
 - [ ] Create, edit, delete reminders
@@ -37,6 +37,10 @@
 - [ ] Build dashboard summarizing completed and pending actions
 - [ ] Show history of completed/missed reminders
 - [ ] Basic analytics (completion rates, streaks)
+
+## 3. Authentication
+- [ ] Implement sign-in with Google, Apple, and Microsoft accounts
+- [ ] Handle authentication state and user sessions
 
 ## 8. Security
 - [x] Encrypt sensitive user data (local and remote)
